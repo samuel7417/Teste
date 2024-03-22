@@ -1,0 +1,6 @@
+nome= input("\ndigite seu nome:")
+print(f"seja bem-vindo(a)! {nome}")
+ano=int(input("digite seu ano de nascimento:"))
+data=int(input("digite o ano atual:"))
+idade= (data-ano)
+print(f"você tem {idade} anos.\n")
